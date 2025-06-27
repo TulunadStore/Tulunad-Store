@@ -1,0 +1,68 @@
+// src/data/products.js
+const dummyProducts = [
+  {
+    id: 'TULUNADSHIRT001',
+    name: 'Tulunad Yakshagana Tee - Men',
+    description: 'Embrace the rich heritage of Tulunad with this exquisitely designed traditional shirt for men, featuring a vibrant Yakshagana motif.',
+    price: 999,
+    imageUrl: 'https://images.unsplash.com/photo-1621217036224-f7b7f14b609c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NzIyNzJ8MHwxfHNlYXJjaHw0fHltZWRpJTIwdHJhZGl0aW9uYWwlMjBzaGlydHxlbnwwfHx8fDE3MTc3NDYwNzJ8MA&ixlib=rb-4.0.3&q=80&w=400',
+    category: 'men',
+    isCustomizable: false,
+  },
+  {
+    id: 'TULUNADSAREE002',
+    name: 'Pooja Kattu Silk Blend Saree - Women',
+    description: 'A beautiful and vibrant saree reflecting the artistry of Tulunad culture, perfect for women, with traditional Pooja Kattu patterns.',
+    price: 3499,
+    imageUrl: 'https://images.unsplash.com/photo-1621217036224-f7b7f14b609c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NzIyNzJ8MHwxfHNlYXJjaHw0fHltZWRpJTIwdHJhZGl0aW9uYWwlMjBzaGlydHxlbnwwfHx8fDE3MTc3NDYwNzJ8MA&ixlib=rb-4.0.3&q=80&w=400',
+    category: 'women',
+    isCustomizable: false,
+  },
+  {
+    id: 'TULUNADKIDSSHIRT003',
+    name: 'Kids Bhoota Kola Graphic Tee',
+    description: 'Comfortable and stylish graphic tee for kids, featuring elements inspired by the vibrant Bhoota Kola rituals of Tulunad.',
+    price: 499,
+    imageUrl: 'https://images.unsplash.com/photo-1596752763351-87ee05c48b4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NzIyNzJ8MHwxfHNlYXJjaHwyMHx8a2lkcyUyMHRyYWRpdGlvbmFsJTIwc2hpcnR8ZW58MHx8fHwxNzE3NzQ2MTE4fDA&ixlib=rb-4.0.3&q=80&w=400',
+    category: 'kids',
+    isCustomizable: false,
+  },
+  {
+    id: 'TULUNADCUSTOMSHIRT004',
+    name: 'Customizable Tulunad Motif Shirt',
+    description: 'Design your own Tulunad-themed shirt! Choose colors, motifs (like areca nut, temple arch), and add custom text.',
+    price: 1299,
+    imageUrl: 'https://images.unsplash.com/photo-1579298245100-33045610b889?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NzIyNzJ8MHwxfHNlYXJjaHwyfHwzZCUyMGNsb3RoaW5nJTIwY3VzdG9taXplZCUyMHNzaGlydHxlbnwwfHx8fDE3MTc3NDU3ODZ8MA&ixlib=rb-4.0.3&q=80&w=400',
+    category: 'customized',
+    isCustomizable: true,
+  },
+  {
+    id: 'TULUNADSHAWL005',
+    name: 'Tulunad Ganjifa Art Shawl',
+    description: 'Luxurious silk blend shawl with intricate Ganjifa card art patterns, suitable for all occasions, celebrating a unique art form.',
+    price: 1999,
+    imageUrl: 'https://images.unsplash.com/photo-1590480309993-9c84968848c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NzIyNzJ8MHwxfHNlYXJjaHwyMHx8aW5kaWFuJTIwdHJhZGl0aW9uYWwlMjBzaGF3bHxlbnwwfHx8fDE3MTc3NDYxNzZ8MA&ixlib=rb-4.0.3&q=80&w=400',
+    category: 'women',
+    isCustomizable: false,
+  },
+  {
+    id: 'TULUNADMENSKURTA006',
+    name: 'Tulunad Kasuti Embroidered Kurta',
+    description: 'Elegant kurta for men, featuring traditional Karnataka Kasuti embroidery and comfortable fabric, perfect for festive wear.',
+    price: 1799,
+    imageUrl: 'https://images.unsplash.com/photo-1621217036224-f7b7f14b609c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NzIyNzJ8MHwxfHNlYXJjaHw0fHltZWRpJTIwdHJhZGl0aW9uYWwlMjBzaGlydHxlbnwwfHx8fDE3MTc3NDYwNzJ8MA&ixlib=rb-4.0.3&q=80&w=400',
+    category: 'men',
+    isCustomizable: false,
+  },
+  {
+    id: 'TULUNADKIDSDHOTHISTYLE007',
+    name: 'Kids Dhoti Style Pants & Shirt Set',
+    description: 'A charming traditional dhoti-style pants and shirt set for kids, perfect for cultural events and everyday wear, blending comfort and tradition.',
+    price: 799,
+    imageUrl: 'https://images.unsplash.com/photo-1621217036224-f7b7f14b609c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NzIyNzJ8MHwxfHNlYXJjaHw0fHltZWRpJTIwdHJhZGl0aW9uYWwlMjBzaGlydHxlbnwwfHx8fDE3MTc3NDYwNzJ8MA&ixlib=rb-4.0.3&q=80&w=400',
+    category: 'kids',
+    isCustomizable: false,
+  },
+];
+
+export default dummyProducts;
